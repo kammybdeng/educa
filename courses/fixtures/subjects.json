@@ -1,0 +1,71 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Computer Science",
+    "slug": "computer-science"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Chemistry",
+    "slug": "chemistry"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Literature",
+    "slug": "literature"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Biology",
+    "slug": "biology"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Engineering",
+    "slug": "engineering"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 7,
+  "fields": {
+    "title": "Art",
+    "slug": "art"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "subject": 2,
+    "title": "Introduction to Python",
+    "slug": "introduction-python",
+    "overview": "intro to python",
+    "created": "2020-09-03T07:48:25.170Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "module-1",
+    "description": "this is module 1"
+  }
+}
+]
